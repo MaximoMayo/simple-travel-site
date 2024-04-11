@@ -1,3 +1,16 @@
+body{
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    color:yellow;
+}
+
+nav a{
+    color: green;
+}
+
 table img{
     width: 100%;
 }
