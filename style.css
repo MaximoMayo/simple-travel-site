@@ -1,16 +1,29 @@
 body{
-    background-color: red;
+    background-color: #990000;
     font-family: 'Times New Roman', Times, serif;
 }
 
-header{
+#header{
     color:yellow;
 }
 
-nav a{
+#nav a{
     color: green;
+    display: inline;
+}
+
+.colorBlue{
+    color: blue;
+}
+
+.colorRed{
+    color: red;
 }
 
 table img{
     width: 100%;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
