@@ -1,16 +1,77 @@
 body{
-    background-color: red;
+    background-color: #243447;
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Header Styles*/
+
 header{
-    color:yellow;
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+}
+
+header h1{
+    color:#c51f5d;
+    display: flex;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+
+}
+
+/* Nav Styles */
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-self:flex-end;
 }
 
 nav a{
-    color: green;
+    color: orange;
+}
+
+nav li{
+    display: inline;
+    text-align: center;
+}
+
+nav li:nth-child(2){
+    padding-right: 3em;
+}
+
+nav li:nth-child(1){
+    padding-right: 3em;
+}
+
+/* Table Styles */
+
+table{
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-left: 9em;
+}
+
+table td{
+    border-color: rgb(29, 104, 29);
 }
 
 table img{
-    width: 100%;
+    width: 750px;
+    height: 350px;
+    object-fit:fill;
+}
+
+table td{
+    padding-left: 2em;
+}
+table td:nth-child(2){
+    padding-left: 0em;
+}
+
+thead td#headTD{
+    text-align:center;
 }
