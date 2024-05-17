@@ -57,6 +57,25 @@ table{
 
 table td{
     border-color: rgb(29, 104, 29);
+    background-color: #990000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header{
+    color:yellow;
+}
+
+#nav a{
+    color: green;
+    display: inline;
+}
+
+.colorBlue{
+    color: blue;
+}
+
+.colorRed{
+    color: red;
 }
 
 table img{
@@ -74,4 +93,7 @@ table td:nth-child(2){
 
 thead td#headTD{
     text-align:center;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
